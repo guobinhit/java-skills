@@ -18,6 +18,7 @@
 
 - 第 0 章：[语言导论](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/language-guide.md)
 
+- 第 1 章：[对象漫谈](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/object-ramble.md)
 
 ## 效率编程
 

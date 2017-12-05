@@ -38,5 +38,5 @@ Java 语言缘起于 1991 年 Sun 成立的一个名为 Green 的项目小组，
 
 ----------
 
-———— ☆☆☆ —— 返回 -> [Java Skills](https://github.com/guobinhit/java-skills/blob/master/README.md) <- 目录 —— ☆☆☆ ————
+———— ☆☆☆ —— 返回 -> [那些年，关于 Java 的那些事儿](https://github.com/guobinhit/java-skills/blob/master/README.md) <- 目录 —— ☆☆☆ ————
 

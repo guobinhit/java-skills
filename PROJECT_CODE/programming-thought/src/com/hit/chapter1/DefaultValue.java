@@ -20,7 +20,8 @@ public class DefaultValue {
     public static double aDouble;
 
     public static int defaultValue(){
-        int x;
+        int x = 5211314;
+//        int x;
         return x;
     }
 
@@ -31,6 +32,9 @@ public class DefaultValue {
         System.out.println("aBoolean : " + aBoolean + " aChar : " + aChar + " aByte : " + aByte + " aShort : " + aShort
                 + " anInt : " + anInt + " aLong : " + aLong + " aFloat : " + aFloat + " aDouble : " + aDouble);
 
+        /**
+         * 直接输出在方法中未初始化的局部变量，编译器会报错
+         */
         System.out.println(defaultValue());
     }
 

@@ -16,8 +16,9 @@
 
 ## 编程思想
 
-- 第 0 章：[语言导论](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/language-guide.md)
-- 第 1 章：[对象漫谈](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/object-ramble.md)
+- 第 1 章：[语言导论](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/language-guide.md)
+- 第 2 章：[对象漫谈](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/object-ramble.md)
+- 第 3 章：[操作符](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/operator.md)
 
 ## 效率编程
 

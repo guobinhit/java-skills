@@ -1,4 +1,4 @@
-package com.hit.chapter1;
+package com.hit.chapter2;
 
 /**
  * author:Charies Gavin

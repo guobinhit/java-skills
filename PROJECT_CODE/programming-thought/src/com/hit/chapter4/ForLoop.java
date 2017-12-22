@@ -31,5 +31,17 @@ public class ForLoop {
 
         System.out.println("用 Arrays 的 toString() 方法打印数组：");
         System.out.println(Arrays.toString(arr));
+
+        // 小心，这里有毒 ~~~
+//        doubleForTest();
+    }
+
+    /**
+     * 测试 double 数据类型的 for 循环
+     */
+    private static void doubleForTest() {
+        for (double x = 0; x != 10; x += 0.1) {
+            System.out.println(x);
+        }
     }
 }

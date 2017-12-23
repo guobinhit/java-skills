@@ -20,6 +20,7 @@
 - 第 2 章：[对象漫谈](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/object-ramble.md)
 - 第 3 章：[操作符](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/operator.md)
 - 第 4 章：[控制流程](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/control-process.md)
+- 第 5 章：[初始化与清理](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/initial-and-clean.md)
 
 ## 效率编程
 

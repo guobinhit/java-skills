@@ -21,6 +21,7 @@
 - 第 3 章：[操作符](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/operator.md)
 - 第 4 章：[控制流程](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/control-process.md)
 - 第 5 章：[初始化与清理](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/initial-and-clean.md)
+- 第 6 章：[访问权限控制](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/access-rights.md)
 
 ## 效率编程
 

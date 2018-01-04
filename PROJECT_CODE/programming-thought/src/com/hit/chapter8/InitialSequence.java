@@ -1,8 +1,8 @@
-package com.hit.chapter9;
+package com.hit.chapter8;
 
 /**
  * author:Charies Gavin
- * date:2017/12/07,8:50
+ * date:2018/1/3,9:16
  * https:github.com/guobinhit
  * description:测试初始化顺序
  */

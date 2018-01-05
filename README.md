@@ -23,6 +23,7 @@
 - 第 5 章：[初始化与清理](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/initial-and-clean.md)
 - 第 6 章：[访问权限控制](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/access-rights.md)
 - 第 7 章：[复用类](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/reuse-class.md)
+- 第 8 章：[多态](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/polymorphic.md)
 
 ## 效率编程
 

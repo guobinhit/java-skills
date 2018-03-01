@@ -4,7 +4,7 @@ package com.hit.thought.chapter9;
  * author:Charies Gavin
  * date:2018/3/1,9:03
  * https:github.com/guobinhit
- * description:测试嵌套接口
+ * description:测试类中嵌套接口
  */
 public class NestInterface {
     /**

@@ -44,7 +44,7 @@ public class OuterClass {
     }
 
     /**
-     * 匿名类
+     * 匿名内部类
      *
      * @return
      */
@@ -52,6 +52,19 @@ public class OuterClass {
         return new InnerClass() {
             public void sayHi() {
                 System.out.println("Hello");
+            }
+        };
+    }
+
+    /**
+     * 在匿名内部类中引用外部参数时，必须将参数定义为 final 类型
+     *
+     * @return
+     */
+    public InnerClass anonymousInnerClass2(final String name) {
+        return new InnerClass() {
+            public void sayHi() {
+                System.out.println("Hello " + name);
             }
         };
     }
@@ -90,5 +103,7 @@ public class OuterClass {
 
         // 创建匿名类，覆盖 sayHi() 方法
         outerClass.anonymousInnerClass().sayHi();
+
+        outerClass.anonymousInnerClass2("World").sayHi();
     }
 }

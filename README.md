@@ -24,6 +24,7 @@
 - 第 6 章：[访问权限控制](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/access-rights.md)
 - 第 7 章：[继承、组合、fianl](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/reuse-class.md)
 - 第 8 章：[多态、初始化顺序、协变返回类型](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/polymorphic.md)
+- 第 9 章：[接口、内部类](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/interface-innerclass.md)
 
 ## 效率编程
 

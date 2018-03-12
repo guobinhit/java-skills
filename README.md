@@ -26,6 +26,7 @@
 - 第 8 章：[多态、初始化顺序、协变返回类型](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/polymorphic.md)
 - 第 9 章：[接口、内部类](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/interface-innerclass.md)
 - 第 10 章：[异常及错误处理](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/handle-exception.md)
+- 第 11 章：[字符串](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/string.md)
 
 ## 效率编程
 

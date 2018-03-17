@@ -4,7 +4,7 @@ package com.hit.thought.chapter13;
  * author:Charies Gavin
  * date:2018/3/12,9:10
  * https:github.com/guobinhit
- * description:
+ * description:栈
  */
 public class LinkedStack<T> {
     private static class Node<U> {

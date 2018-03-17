@@ -4,7 +4,7 @@ package com.hit.thought.chapter13;
  * author:Charies Gavin
  * date:2018/3/12,9:15
  * https:github.com/guobinhit
- * description:
+ * description:斐波那契数列
  */
 public class Fibonacci implements Generator<Integer> {
     private int count = 0;

@@ -27,6 +27,7 @@
 - 第 9 章：[接口、内部类](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/interface-innerclass.md)
 - 第 10 章：[异常及错误处理](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/handle-exception.md)
 - 第 11 章：[字符串](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/string.md)
+- 第 12 章：[运行时类型识别、反射](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/rtti-and-reflect.md)
 
 ## 效率编程
 

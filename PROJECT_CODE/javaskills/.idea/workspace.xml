@@ -13,41 +13,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompareClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/CompareClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DotClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/DotClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Interface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/Interface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/LoadClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -76,6 +46,8 @@
               <folding>
                 <element signature="e#234#235#0" expanded="false" />
                 <element signature="e#284#285#0" expanded="false" />
+                <element signature="e#343#344#0" expanded="false" />
+                <element signature="e#401#402#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,11 +56,9 @@
       <file leaf-file-name="ShowMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/ShowMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="612">
               <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,23 +66,60 @@
       <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="126">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/SimpleHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericHolder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/GenericHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#410#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-              <folding>
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#1405#1413#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +130,7 @@
             <state relative-caret-position="288">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="e#1029#1030#0" expanded="false" />
                 <element signature="e#1067#1068#0" expanded="false" />
               </folding>
@@ -178,8 +186,6 @@
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter11/RegularExpressionObject.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter11/ObjectRegularExpression.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter11/RegularExpressionExample.java" />
-        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/Generator.java" />
-        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter12/LoadClass.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter12/NewInstance.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter12/DotClass.java" />
@@ -196,6 +202,10 @@
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter12/SimpleDynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter12/ShowMethods.java" />
         <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/Generator.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/SimpleHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/hit/thought/chapter13/GenericHolder.java" />
       </list>
     </option>
   </component>
@@ -565,7 +575,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -663,6 +672,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -693,27 +703,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedStack">
-    <configuration default="false" name="CompareClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hit.thought.chapter12.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter12.CompareClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javaskills" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GenericHolder">
     <configuration default="false" name="ShowMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -722,26 +712,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter12.ShowMethods" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javaskills" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SimpleDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hit.thought.chapter12.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter12.SimpleDynamicProxy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -782,6 +752,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter13.LinkedStack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaskills" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hit.thought.chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter13.SimpleHolder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaskills" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenericHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hit.thought.chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.hit.thought.chapter13.GenericHolder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1102,19 +1112,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CompareClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ShowMethods" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SimpleDynamicProxy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestReflect" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinkedStack" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ShowMethods" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestReflect" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinkedStack" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SimpleHolder" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GenericHolder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinkedStack" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ShowMethods" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestReflect" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SimpleDynamicProxy" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CompareClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GenericHolder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SimpleHolder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedStack" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ShowMethods" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestReflect" />
       </list>
     </recent_temporary>
   </component>
@@ -1138,12 +1148,13 @@
       <workItem from="1520818372438" duration="1640000" />
       <workItem from="1521278515903" duration="3105000" />
       <workItem from="1521339422041" duration="14035000" />
-      <workItem from="1521420109357" duration="1565000" />
+      <workItem from="1521420109357" duration="2427000" />
+      <workItem from="1521510323722" duration="1769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49305000" />
+    <option name="totallyTimeSpent" value="51936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -1158,20 +1169,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43446246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3460972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31516936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28796563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2922636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1197,14 +1208,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/A.java" />
-    <entry file="file://$PROJECT_DIR$/javaskills.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter2/DefaultValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1363,10 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#2837#2838#0" expanded="false" />
-            <element signature="e#2886#2887#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,7 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,20 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#266#267#0" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,11 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="3" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1445,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="3" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,35 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2341#2342#0" expanded="false" />
-            <element signature="e#2407#2408#0" expanded="false" />
-            <element signature="e#2434#2435#0" expanded="false" />
-            <element signature="e#2500#2501#0" expanded="false" />
-            <element signature="e#2520#2521#0" expanded="false" />
-            <element signature="e#2587#2588#0" expanded="false" />
-            <element signature="e#2617#2618#0" expanded="false" />
-            <element signature="e#2686#2687#0" expanded="false" />
-            <element signature="e#2714#2715#0" expanded="false" />
-            <element signature="e#2781#2782#0" expanded="false" />
-            <element signature="e#2816#2817#0" expanded="false" />
-            <element signature="e#2854#2855#0" expanded="false" />
-            <element signature="e#2891#2892#0" expanded="false" />
-            <element signature="e#2921#2922#0" expanded="false" />
-            <element signature="e#3066#3067#0" expanded="false" />
-            <element signature="e#3142#3143#0" expanded="false" />
-            <element signature="e#3173#3174#0" expanded="false" />
-            <element signature="e#3249#3250#0" expanded="false" />
-            <element signature="e#3273#3274#0" expanded="false" />
-            <element signature="e#3350#3351#0" expanded="false" />
-            <element signature="e#3384#3385#0" expanded="false" />
-            <element signature="e#3463#3464#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-            <element signature="e#3572#3573#0" expanded="false" />
-            <element signature="e#3813#3814#0" expanded="false" />
-            <element signature="e#3859#3860#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,9 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,6 +1513,8 @@
           <folding>
             <element signature="e#234#235#0" expanded="false" />
             <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1577,6 +1524,7 @@
         <state relative-caret-position="288">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#1029#1030#0" expanded="false" />
             <element signature="e#1067#1068#0" expanded="false" />
           </folding>
@@ -1585,30 +1533,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter12/ShowMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="612">
           <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/SimpleHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#1405#1413#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hit/thought/chapter13/GenericHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#410#418#0" expanded="true" />
           </folding>
         </state>
       </provider>

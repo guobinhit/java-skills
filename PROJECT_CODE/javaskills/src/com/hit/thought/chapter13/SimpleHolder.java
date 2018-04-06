@@ -22,5 +22,8 @@ public class SimpleHolder {
         holder.setObj("HelloWorld");
         String s = (String) holder.getObj();
         System.out.println(s);
+        holder.setObj(521);
+        Integer i = (Integer) holder.getObj();
+        System.out.println(i);
     }
 }

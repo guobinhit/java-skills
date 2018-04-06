@@ -22,5 +22,8 @@ public class GenericHolder<T> {
         holder.setObj("HelloWorld");
         String s = holder.getObj();
         System.out.println(s);
+//        holder.setObj(521);
+//        Integer i = (Integer) holder.getObj();
+//        System.out.println(i);
     }
 }

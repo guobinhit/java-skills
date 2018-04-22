@@ -48,6 +48,7 @@ class Manipulator<T> {
 
 /**
  * 指定泛型边界
+ *
  * @param <T>
  */
 class Manipulator2<T extends Erased, Erased2> {

@@ -90,7 +90,6 @@ public class IdWorker {
                 + workerId + ", sequence:" + sequence);
 
         return nextId;
-
     }
 
     private long tilNextMillis(final long lastTimestamp) {

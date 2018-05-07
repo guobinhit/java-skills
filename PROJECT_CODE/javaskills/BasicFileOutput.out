@@ -1,0 +1,37 @@
+1 : package com.hit.thought.chapter16.io;
+2 : 
+3 : import com.hit.thought.chapter16.Constants;
+4 : 
+5 : import java.io.*;
+6 : 
+7 : /**
+8 :  * @author bin.guo
+9 :  * @Copyright 易宝支付(YeePay)
+10 :  * @date 5/6/18,3:37 PM
+11 :  * @description
+12 :  */
+13 : public class BasicFileOutput {
+14 :     static String file = "BasicFileOutput.out";
+15 : 
+16 :     public static void main(String[] args) throws IOException {
+17 :         BufferedReader in = new BufferedReader(
+18 :                 new StringReader(
+19 :                         BufferedInputFile.read(Constants.FILE_ABSOLUTE_PATH + "BasicFileOutput.java")
+20 :                 )
+21 :         );
+22 : 
+23 :         PrintWriter out = new PrintWriter(
+24 :                 new BufferedWriter(
+25 :                         new FileWriter(file)
+26 :                 )
+27 :         );
+28 : 
+29 :         int lineCount = 1;
+30 :         String s;
+31 :         while ((s = in.readLine()) != null) {
+32 :             out.println(lineCount++ + " : " + s);
+33 :         }
+34 :         out.close();
+35 :         System.out.println(BufferedInputFile.read(Constants.FILE_ABSOLUTE_PATH + file));
+36 :     }
+37 : }

@@ -37,6 +37,4 @@ public class DefaultValue {
          */
         System.out.println(defaultValue());
     }
-
-
 }

@@ -74,15 +74,6 @@
       <textMaps />
     </LinkMapSettings>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../tomcatmaven/MavenLocalRepo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../tomcatmaven/apache-maven-3.2.5" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../tomcatmaven/apache-maven-3.2.5/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

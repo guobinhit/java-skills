@@ -32,7 +32,7 @@
 - 第 14 章：[数组、容器](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/array-container.md)
 - 第 15 章：[容器深入研究](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/deep-container.md)
 - 第 16 章：[Java I/O 系统](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/io.md)
-- 第 17 章：枚举类型、注解
+- 第 17 章：[枚举类型、注解](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/enum-annotation.md)
 - 第 18 章：并发
 
 

@@ -39,6 +39,7 @@
 
 ## 效率编程
 
+- 第 1 章：[创建和销毁对象](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/create-destory.md)
 
 ## 并发实战
 

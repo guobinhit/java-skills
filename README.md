@@ -42,6 +42,7 @@
 - 第 1 章：[创建和销毁对象](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/create-destory.md)
 - 第 2 章：[对于所有对象都通用的方法](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/common-method.md)
 - 第 3 章：[类和接口](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/class-interface.md)
+- 第 4 章：[泛型](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/generic-paradigm2.md)
 
 ## 并发实战
 

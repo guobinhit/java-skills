@@ -43,6 +43,7 @@
 - 第 2 章：[对于所有对象都通用的方法](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/common-method.md)
 - 第 3 章：[类和接口](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/class-interface.md)
 - 第 4 章：[泛型](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/generic-paradigm2.md)
+- 第 5 章：[枚举和注解](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/enum-annotaion.md)
 
 ## 并发实战
 

@@ -45,6 +45,11 @@
 - 第 4 章：[泛型](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/generic-paradigm2.md)
 - 第 5 章：[枚举和注解](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/enum-annotaion.md)
 - 第 6 章：[方法](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/method.md)
+- 第 7 章：[通用程序设计](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/common-program-design.md)
+
+
+
+
 
 ## 并发实战
 

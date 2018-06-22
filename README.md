@@ -48,7 +48,7 @@
 - 第 7 章：[通用程序设计](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/common-program-design.md)
 - 第 8 章：[异常](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/exception.md)
 - 第 9 章：[并发](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/current.md)
-
+- 第 10 章：[序列化](https://github.com/guobinhit/java-skills/blob/master/articles/effective-programming/serialization.md)
 
 
 

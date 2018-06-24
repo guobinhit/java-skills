@@ -6,7 +6,6 @@ package com.hit.others.twitter;
  * https:github.com/guobinhit
  * description:Twitter ID 生成器
  */
-
 public class IdWorker {
 
     private final long workerId;

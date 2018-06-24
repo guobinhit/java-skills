@@ -3,12 +3,6 @@ package com.hit.effective.chapter9;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * @author bin.guo
- * @Copyright 易宝支付(YeePay)
- * @date 6/21/18,8:31 AM
- * @description
- */
-/**
  * author:Charies Gavin
  * date:2018/6/21,8:31
  * https:github.com/guobinhit

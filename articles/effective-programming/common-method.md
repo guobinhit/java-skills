@@ -93,7 +93,7 @@ public final class PhoneNumber {
 
 ### 第 2 条：覆盖`equals`方法时总要覆盖`hashCode`方法
 
-一个很常见的错误根源在于没有覆盖`hashCode`方法。**在每个覆盖了`equals`方法的类中，也必须覆盖`hashCode`方法**。如果不这样做的话，就会违反`Object.hashCode`的通用约定，从而导致该类无法结合所有基于散列的集合一起正常工作，这样的集合包括`HashMap`、`HashSet`和`Hashtable`等。以上 **第 1 条** 中的`PhoneNumber`类为例，如果我们企图将其与`HashMap`一起使用：
+一个很常见的错误根源在于没有覆盖`hashCode`方法。**在每个覆盖了`equals`方法的类中，也必须覆盖`hashCode`方法**。如果不这样做的话，就会违反`Object.hashCode`的通用约定，从而导致该类无法结合所有基于散列的集合一起正常工作，这样的集合包括`HashMap`、`HashSet`和`Hashtable`等。以上面 **第 1 条** 中的`PhoneNumber`类为例，如果我们企图将其与`HashMap`一起使用：
 
 ```
 Map<PhoneNumber, String> amap = new HashMap<PhoneNumber, String>();

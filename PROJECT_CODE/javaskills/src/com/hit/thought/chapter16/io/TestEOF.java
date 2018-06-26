@@ -20,6 +20,7 @@ public class TestEOF {
                         new FileInputStream(Constants.FILE_ABSOLUTE_PATH + "TestEOF.java")
                 )
         );
+
         /**
          * 如果我们从 DataInputStream 用 readByte() 一次一个字节地读取字符，
          * 那么任何字节的值都是合法的结果，因此返回值不能用来检查输入是否结束。

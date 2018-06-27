@@ -6,10 +6,10 @@ import java.util.Arrays;
 import java.util.TreeSet;
 
 /**
- * @author bin.guo
- * @Copyright 易宝支付(YeePay)
- * @date 6/25/18,9:07 AM
- * @description
+ * author:Charies Gavin
+ * date:2018/6/25,9:07
+ * https:github.com/guobinhit
+ * description:文件读取的使用工具类
  */
 public class TextFile extends ArrayList<String> {
     // Read a file as a single string
@@ -102,6 +102,5 @@ public class TextFile extends ArrayList<String> {
         );
         // Display the capitalized words
         System.out.println(words.headSet("a"));
-
     }
 }

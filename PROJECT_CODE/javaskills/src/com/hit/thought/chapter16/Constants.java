@@ -13,4 +13,7 @@ public class Constants {
 
     // 文件的绝对路径
     public static final String FILE_ABSOLUTE_PATH = "/Users/bin.guo/Documents/GitRepo/java-skills/PROJECT_CODE/javaskills/src/com/hit/thought/chapter16/io/";
+
+    // 文件的绝对路径，排除 io 目录
+    public static final String FILE_ABSOLUTE_PATH_EXCLUDE_IO = "/Users/bin.guo/Documents/GitRepo/java-skills/PROJECT_CODE/javaskills/src/com/hit/thought/chapter16/";
 }

@@ -65,6 +65,7 @@
 ## 虚拟机篇
 
 - 第 1 章：[运行时数据区域及虚拟机对象](https://github.com/guobinhit/java-skills/blob/master/articles/virtual-machine/vmo-runtime.md)
+- 第 2 章：[垃圾收集与内存分配策略](https://github.com/guobinhit/java-skills/blob/master/articles/virtual-machine/gc-mas.md)
 
 
 

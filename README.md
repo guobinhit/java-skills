@@ -73,12 +73,12 @@
 
 > **免责声明**：本系列博文的大部分内容均来自以下四本图书，
 >
-- 书名：Java编程思想；作者：Bruce Eckel
-- 书名：Effective Java；作者：Joshua Bloch
-- 书名：Java并发编程实战；作者：Brian Goetz，Tim Peierls 等
-- 书名：深入理解Java虚拟机：JVM高级特性与最佳实践；作者：周志明
+> ---> 书名：Java编程思想；作者：Bruce Eckel
+> ---> 书名：Effective Java；作者：Joshua Bloch
+> ---> 书名：Java并发编程实战；作者：Brian Goetz，Tim Peierls 等
+> ---> 书名：深入理解Java虚拟机：JVM高级特性与最佳实践；作者：周志明
 > 
-> 本系列博文的目的就在于梳理知识点并记录一些自己的理解，以供大家参考！在此，强烈建议大家阅读原著，尊重版权。
+> 书是知识之源，也是智慧经验的结晶！在此，强烈建议大家阅读原著，尊重版权。
 
 ----------
 

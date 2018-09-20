@@ -61,7 +61,7 @@ class Apple {
 }
 ```
 
-![1](http://img.blog.csdn.net/20171209131754515)
+![test-assignment](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/operator/test-assignment.png)
 
 如上图所示，当我们把对象`apple1`赋值给对象`apple2`的时候，两个对象就拥有了同一个引用，因此在我们修改`apple2`的值之后，`apple1`的值也受到了影响，这种现象，我们称之为「同名现象」。如果想要避免上述的同名现象，我们可以修改赋值代码为
 
@@ -106,7 +106,7 @@ public class ArithmeticOperator {
     }
 }
 ```
-![2](http://img.blog.csdn.net/20171209140612370)
+![test-arithmetic](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/operator/test-arithmetic.png)
 
 如上所示，我们创建了一个随机整数除法，并测试了整数除法会默认省略结果的小数位。在`randomDivide()`方法中，我们使用了`Random`类，**如果我们在创建`Random`对象的时候没有传入任何参数，那么 Java 就会将当前时间作为随机数生成器的种子**，因此在每次执行上述程序的时候，都会得到不同的结果。其中，随机数生成器的种子用于随机数生成器的初始化值，对于相同的种子，总会产生相同的随机数序列。此外，在我们调用`nextInt()`方法的时候，我们进行了`+1`操作，这是因为**传递给`nextInt()`的参数设置了所能产生随机数的上限，而其下限为`0`，下限可以取到，上限取不到**，因此`+1`操作可以防止除数为`0`的情况。
 
@@ -161,7 +161,7 @@ public class RelationOperator {
 }
 ```
 
-![equal](http://img.blog.csdn.net/20171210151141658)
+![test-relation](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/operator/test-relation.png)
 
 如上所示，我们创建了两个`Integer`类型的对象，通过关系操作符来比较，发现结果出人意料，两个`Integer`类型的`521`竟然被判断为`false`，也就是不相等。实际上，这是正常的，因为`==`和`!=`比较的是对象的引用，我们通过`new`创建了两个`Integer`类型的对象，虽然这两个对象的内容相同，但它们在堆上拥有不同的存储空间，也就拥有了不同的对象引用。通过对`equalsFunction`的测试，我们发现**调用`java.lang`包（默认导入）的`equals()`方法，可以正确的比较两个对象的内容**。But，下面的程序可能就要让我们对之前的判断持怀疑态度了，
 
@@ -204,7 +204,7 @@ class Cartoon {
     String name;
 }
 ```
-![false](http://img.blog.csdn.net/20171210153109933)
+![test-relation-2](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/operator/test-relation-2.png)
 
 如上所示，我们创建了两个自定义类的对象，然后同样是通过`equals()`方法对两个含有相同内容的对象进行比较判断，其结果竟然是`false`？不是说好`equals()`方法比较的是对象的内容吗？怎么转眼就被打脸了呢？好吧，在这里纠正一下，**`equals()`方法默认是比较对象的引用**，不过在大多数的 Java 类库中都实现了`equals()`方法，以便用来比较对象的内容，而非比较对象的引用。因此，如果我们想使用`equals()`方法来比较我们自定义类型的内容而非引用的话，则需要覆盖`Object`类（终极根类）中的`equals()`方法，而在覆盖`equals()`方法的同时，建议同时覆盖`hashCode()`方法。下面给出一个同时覆盖`equals()`和`hashCode()`的示例：
 
@@ -242,7 +242,7 @@ class Cartoon {
 }
 ```
 
-![hashcode](http://img.blog.csdn.net/20171210160836758)
+![test-relation-3](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/operator/test-relation-3.png)
 
 在此，强烈建议：**不要用`==`操作符来检测两个字符串是否相等**！因为`==`操作符只能确定两个字符串是否放在同一个位置上。当然，如果两个字符串放置在同一个位置上，它们必然相等，但是完全有可能将内容相同的多个字符串的拷贝位置放置在不同的位置上。如果虚拟机始终将相同的字符串共享，就可以使用`==`操作符来检测两个字符串是否相等。但实际上，**只有字符串常量是共享的**。
 

@@ -100,7 +100,7 @@ class Hiter {
     }
 }
 ```
-![saymotto](http://img.blog.csdn.net/20171225091533589)
+![motto-hit](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/initial-and-clean/motto-hit.png)
 
 实际上，在编译的时候，编译器会“偷偷”的将“所操作对象的引用”当做第一个参数传递给调用的方法，例如上述的调用会变为：
 
@@ -112,7 +112,7 @@ Hiter.sayMotto(hiter_2, "Charies");
 
 此外，**如果在构造器中为`this`添加了参数列表，那么将产生对符合此参数列表的构造器的明确调用**。尽管可以用`this`调用构造器，但仅能调用一个不能调用多个，并且对构造器的调用必须为构造器内的第一行代码，否则编译器就会报错。如下图所示，
 
-![thisssss](http://img.blog.csdn.net/20171230134344180)
+![class-animal](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/initial-and-clean/class-animal.png)
 
 在了解`this`关键字之后，我们会发现`static`方法其实就是没有`this`关键字的方法。我们也应该听说过，“在静态方法的内部不能调用非静态方法，反之可以”。实际上，这并不是绝对的，如果我们传递一个对象的引用到静态方法里，然后通过这个引用，我们就能够调用非静态方法和非静态的数据成员。
 

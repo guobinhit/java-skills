@@ -100,7 +100,7 @@ public class ForLoop {
 }
 ```
 
-![for](http://img.blog.csdn.net/20171221204520037)
+![for-loop](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/control-process/for-loop.png)
 
 如上图所示，我们还能够发现另外一种更为简单的打印数组中所有元素的方法，那就是：利用`Arrays`类中的`toString()`方法，其返回一个包含数组中所有元素的字符串，这个字符串被放置在一个中括号内部并用逗号进行分隔。
 

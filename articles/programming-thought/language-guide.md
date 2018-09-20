@@ -1,6 +1,6 @@
 # 编程思想 之「语言导论」
 
-![Java](http://img.blog.csdn.net/20171202132506152)
+![java-icon](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/language-guide/java-icon.png)
 
 > **Java 发展史**
 

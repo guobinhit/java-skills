@@ -20,7 +20,7 @@ public class ConnectionString {
 }
 ```
 
-![001](http://img.blog.csdn.net/20180311143044301)
+![javap-c-class](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/string/javap-c-class.png)
 
 如上图所示，通过`javap`反编译`ConnectionString.class`文件后，我们可以看到：在进行字符串拼接的时候，编译器是自动引入了`StringBuilder`对象并调用其`append()`方法来实现字符串拼接的，这是编译器对我们的代码进行优化的结果，因为`StringBuilder`更高效。自然而然的，我们会想到用操作符进行字符串拼接的时候会产生很多需要垃圾回收器来回收的中间对象，这正是其效率较低的原因所在。
 
@@ -50,7 +50,7 @@ public class UnconsciousRecursion {
 }
 ```
 
-![002](http://img.blog.csdn.net/20180311152723477)
+![stack-over-flow-error](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/string/stack-over-flow-error.png)
 
 如上述代码及结果所示，在打印`list`的时候，发生了栈溢出，究其原因：
 
@@ -94,7 +94,7 @@ public class StringRegularExpression {
 }
 ```
 
-![003](http://img.blog.csdn.net/20180311161903389)
+![string-regular-expression](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/string/string-regular-expression.png)
 
 在 Java 中，`\\`的意思是“我要插入一个正则表达式的反斜线，其后面的字符具有特殊的意义”，如示例中我们用`\\S+`表示“一个或多个非空白符”。如果我们想要插入一个普通的反斜线，则应该使用`\\\\`，不过换行和制表符之类的符号只需要使用单反斜线，如`\t`等。在正则表达式中，括号`()`有着将表达式分组的效果，而竖线`|`则表示或操作。此外，在使用`split()`方法的时候，原始字符串中与正则表达式匹配的部分，在最终的结果中都不存在了。而且，如果正则表达式不是只使用一次的话，非`String`对象的正则表达式具有更佳的性能。为了更好的使用正则表达式对象，我们先来看看一些典型的字符类以及预定义的类：
 
@@ -170,7 +170,7 @@ public class RegularExpressionExample {
 }
 ```
 
-![004](http://img.blog.csdn.net/20180311195347370)
+![hi-girl](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/string/hi-girl.png)
 
 如上述所示，演示了如何通过`Pattern`和`Matcher`对象使用正则表达式，其中`Pattern`对象表示编译后的正则表达式，`Matcher`对象则提供了众多可供正则表达式使用的方法。例如，
 
@@ -220,7 +220,7 @@ public class ObjectRegularExpression {
 }
 ```
 
-![005](http://img.blog.csdn.net/20180311201127959)
+![test-reg](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/string/test-reg.png)
 
 如上述所示，我们用正则表达式`(?m)(\\S+)\\s+((\\S+)\\s+(\\S+))$`来匹配每行的后三个单词。正常来说，符号`$`是与整个输入序列的末端相匹配，但是为了让正则表达式注意到输入序列的换行符，我们通过输入序列开头的模式标记`(?m)`来完成。至于模式标记是什么？我们可以简单的将其理解为“作用于正则表达式，并让正则表达式起特定效果的标记”。
 

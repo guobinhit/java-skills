@@ -2,7 +2,7 @@
 
 在「[数组、容器](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/array-container.md)」这篇博文中，我们已经介绍了 Java 容器类库的相关概念及基本特性，这对于使用容器来说已经够用了。在本篇博文中，我们则是要对容器进行更深层次的研究！首先，给出容器类库的比较完备的构件图：
 
-![container](https://img-blog.csdn.net/20180505103604620)
+![full-container-taxonomy](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/deep-container/full-container-taxonomy.png)
 
 如上图所示，我们可以将 Java 容器划分为两类，分别为`Collection`和`Map`，而且所有的容器类都是从这两种类型的子类型或者实现。其中，小虚线框如`Collection`和`Map`表示接口、大虚线框如`AbstractCollection`和`AbstractMap`表示抽象类、实线框如`HashSet`和`HashMap`表示具体的实现类。在上述的容器构件图中，抽象类都实现了接口，其作用只是作为“实现了部分特定接口的工具”，例如我们要实现自己的`Map`，那么我们并不需要直接实现`Map`接口，只需要继承`AbstractMap`并实现新类型所必需的操作即可。当然，Java 的容器类库已经提供足够多的功能了，我们几乎不需要考虑创建自己容器类型的事情！
 
@@ -127,7 +127,7 @@ public class SimpleHashMap<K, V> extends AbstractMap<K, V> {
     }
 }
 ```
-![simpleHashMap](https://img-blog.csdn.net/20180505170616934)
+![simple-hash-map](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/deep-container/simple-hash-map.png)
 
 如上述代码及运行结果图所示，我们实现了自己的`HashMap`并且其已经能够正确工作啦！由于散列表中的“槽位”通常称为桶位，因此我们将表示实际散列表的数组命名为`bucket`，而且为了让散列均匀分布，桶的数量通常使用质数。注意，为了能够自动处理冲突，使用了一个`LinkedList`的数组，每一个新的元素只是直接添加到`list`末尾的某个特定桶位中。即使 Java 不允许创建泛型数组，我们也可以创建指向这个数组的引用。在这里，向上转型为这种数组是很方便的，而且还可以防止在后面的代码中进行额外的转型。
 

@@ -53,7 +53,7 @@ public class ArrayOptions {
 }
 ```
 
-![array](https://img-blog.csdn.net/20180422121942464)
+![array-options](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/array-container/array-options.png)
 
 如上述代码及运行结果所示，我们用了三种方法对数组进行初始化，在数组初始化的过程中，我们可以直接将数组将要持有的对象或基本类型塞进数组，也可以仅声明数组的长度。如果仅声明数组的长度，则编译器会根据数组的类型进行默认初始化，一般来说，对于对象数组，数组中的所有元素将会默认初始化为`null`；对于基本类型数组，数组中的所有元素将会根据基本类型进行默认初始化，如`int`数组默认初始化为`0`，`float`数组默认初始化为`0.0`等。我们还使用了`Arrays.toString()`方法，用于打印一维数组中所有的元素，如果是多维数组，则可以使用`Arrays.deepToString()`方法；`length()`方法用于获取数组的长度，而非数组实际保存元素的个数。此外，在对数组引用进行赋值的时候，引起了同名现象，解决的方法也很简单，即对数组中的元素赋值，而不是数组引用进行赋值。通常情况下，数组与泛型不能很好地结合，我们不能实例化具有参数化类型的数组，例如：
 
@@ -113,7 +113,7 @@ class Dog extends Animal {}
 class Tiger extends Animal {}
 ```
 
-![genericandupcasting](https://img-blog.csdn.net/20180422141544472)
+![generic-and-upcasting](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/array-container/generic-and-upcasting.png)
 
 如上述代码及运行结果所示，我们可以将`Animal`的子类型放置到保存`Animal`类型的容器中。程序的输出是从`Object`默认的`toString()`方法产生的，该方法将打印类名，后面紧跟着该对象的散列码的无符号十六进制表示。Java 容器类类库的用途是“保存对象”，并将其划分为两个不同的概念：
 
@@ -207,7 +207,7 @@ public class TestContainer {
 }
 ```
 
-![container](https://img-blog.csdn.net/20180423083007978)
+![test-container](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/array-container/test-container.png)
 
 通过观察上述代码及运行结果，我们可以得到容器的一些特性，如：
 

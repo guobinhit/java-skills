@@ -67,7 +67,7 @@ public class TestException {
 }
 ```
 
-![001](http://img.blog.csdn.net/20180310162343276)
+![test-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/test-exception.png)
 
 如上述代码及结果图所示，在超类`Throwable`中提供了一个`printStackTrace()`方法，该方法打印`Throwable`的调用栈轨迹，调用栈显示了“把你带到异常抛出点”的方法调用序列。我们也可以通过`getStackTrace`方法来直接访问`printStackTrace()`方法所提供的信息，该方法返回一个由栈轨迹中的元素所构成的数组，其中每一个元素都表示栈中的一帧，元素`0`是栈顶元素，并且是调用序列中的最后一个方法的调用，数组中的最后一个元素和栈底是调用序列中的第一个方法调用。
 
@@ -109,7 +109,7 @@ public class FillException {
 }
 ```
 
-![002](http://img.blog.csdn.net/20180310170046279)
+![catch-a-new-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/catch-a-new-exception.png)
 
 如上图所示，在使用`fillInStackTrace()`方法重新抛出异常之后，有关原来异常发生点的信息丢失了，剩下的都是与新的抛出点有关的信息。这同捕获一种异常但抛出另一种异常得到的结果类似。在实际编程中，这样丢失异常信息的事显然是不能接收的，因此我们就需要通过一种名为“异常链”的异常结构将原始异常信息与新的异常信息链接起来，从而保证异常信息的完整性。
 
@@ -147,7 +147,7 @@ private static void catchExceptionInitCause() throws Exception {
 }
 ```
 
-![003](http://img.blog.csdn.net/20180310173134779)
+![catch-simple-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/catch-simple-exception.png)
 
 ## 运行时异常
 
@@ -174,7 +174,7 @@ public class TestRuntimException {
 }
 ```
 
-![004](http://img.blog.csdn.net/20180310184822312)
+![runtime-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/runtime-exception.png)
 
 如上述所示，对于`RuntimeException`及其所有子类型异常，编译器不需要异常说明，其输出结果被告诉给`System.err`，因此如果`RuntimeException`及其子类型异常没有被捕获而直达`main()`，那么在程序退出前将调用异常的`printStackTrace()`方法。此外，有一点需要我们特别注意，那就是：**只能在代码中忽略`RuntimeException`及其子类型异常，其他类型异常的处理都是由编译器强制实施的**。究其原因，`RuntimeException`代表的是编程错误。
 
@@ -233,7 +233,7 @@ public class FinallyException {
 }
 ```
 
-![005](http://img.blog.csdn.net/20180310191821260)
+![initial-test-finally](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/initial-test-finally.png)
 
 如上述所示，无论我们的方法从那里返回，或者是发生异常，`finally`子句总能够执行。此外，当涉及到`break`和`continue`语句的时候，`finally`子句也会得到执行。
 
@@ -280,7 +280,7 @@ class ComplicatedException extends SimplieException {
 }
 ```
 
-![006](http://img.blog.csdn.net/20180310195250259)
+![catch-simple-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/catch-simple-exception.png)
 
 观察上图，我们可以得出结论：
 
@@ -289,11 +289,11 @@ class ComplicatedException extends SimplieException {
 
 此外，如果我们先`catch`基类异常，再`catch`导出类异常，编译器是不允许的：
 
-![007](http://img.blog.csdn.net/20180310195832794)
+![declaration](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/declaration.png)
 
 如上图所示，IDEA 自带的编译器会提示我们调整异常`catch`的顺序。如果我们不调整，强制编译：
 
-![008](http://img.blog.csdn.net/20180310200113998)
+![tips-exception](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/handle-exception/tips-exception.png)
 
 如上图所示，编译器会跟我们抱怨导出类异常已经被`catch`住了，从而拒绝执行代码。
 

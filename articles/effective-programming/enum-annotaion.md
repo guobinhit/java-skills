@@ -230,7 +230,7 @@ public class RunTests {
 }
 ```
 
-![test](https://img-blog.csdn.net/20180608082255694)
+![run-tests](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/enum-annotaion/run-tests.png)
 
 如上述代码及执行结果图所示，通过使用完全匹配的类名如`com.hit.effective.chapter5.annotation.RunTests`，并通过调用`Method.invoke()`反射式地运行类中所有标注了`Test`的方法。`isAnnotationPresent()`方法告知该工具要运行哪些方法。如果测试方法抛出异常，反射机制就会将它封装在`InvocationTargetException`中。该工具捕捉到了这个异常，并打印失败报告，包含测试方法抛出的原始异常，这些信息通过`getCause()`方法从`InvocationTargetException`中提取出来。如果尝试通过反射调用测试方法时抛出`InvocationTargetException`之外的任何异常，表明编译时没有捕捉到`Test`注解的无效用法。
 

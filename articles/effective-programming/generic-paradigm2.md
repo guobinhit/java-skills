@@ -46,7 +46,7 @@ simpleStack.pushAll(integers);
 
 但是，如果尝试这么做，就会得到下面的错误消息，因为如前文所述，参数化类型是不可变的：
 
-![ERROR](https://img-blog.csdn.net/20180605090643255)
+![simple-stack-push-all](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/generic-paradigm2/simple-stack-push-all.png)
 
 幸运的是，有一种解决办法。Java 提供了一种特殊的参数化类型，称之为“有限制的通配符类型”，来处理类似的情况。`pushAll()`的输入参数不应该为“`E`的`Iterable`接口”，而应该为“`E`的某个子类型的`Iterable`接口”，有一种通配符类型正符合此意：`Iterable<? extends E>`。接下来，我们修改一下`pushAll()`来使用这个类型：
 
@@ -76,7 +76,7 @@ simpleStack.popAll(objects);
 ```
 我们将会得到一个非常类似于第一次调用`pushAll()`时所得到的错误：
 
-![cs](https://img-blog.csdn.net/201806050929128)
+![cs](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/generic-paradigm2/simple-stack-pop-all.png)
 
 这一次，通配符类型同样提供了一种解决办法。`popAll()`方法的输入参数类型不应该为“`E`的集合”，而应该为“`E`的某个超类型的集合”，有一种通配符类型正符合此意：`Collection<? supper E>`。接下来，我们修改一下`popAll()`来使用这个类型：
 

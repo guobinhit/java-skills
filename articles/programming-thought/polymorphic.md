@@ -4,7 +4,7 @@
 
 我们**把对某个对象的引用视为其基类型的引用的做法，称之为向上转型**；把对某个对象的引用视为其导出类型的引用的做法，称之为向下转型。之所以如此称呼，是因为我们习惯性在类的继承体系中把基类放在最上面，而把导出类放在下面，因此从导出类到基类的过程是一个向上看的过程，反之亦然。
 
-![extend](http://img.blog.csdn.net/20180102091945158)
+![extends-system](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/polymorphic/extends-system.png)
 
 在「[语言导论](https://github.com/guobinhit/java-skills/blob/master/articles/programming-thought/language-guide.md)」中，我们曾提到前期绑定和后期绑定的概念，我们**将一个方法调用同一个方法主体关联起来的动作称之为「绑定」**。如果在程序执行前就进行绑定（由编译器和链接程序实现），这就是前期绑定，它是面向过程的编程语言的默认绑定方式，例如 C 语言；如果在运行时根据对象的类型进行绑定，这就是后期绑定，也称之为动态绑定和运行时绑定。
 
@@ -47,7 +47,7 @@ class DerivedOverride extends PrivateOverride {
     }
 }
 ```
-![override](http://img.blog.csdn.net/20180103090309194)
+![private-override](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/polymorphic/private-override.png)
 
 通过上面的测试，我们发现：**只有非`private`方法才能被覆盖**。因此，在导出类中，对于基类中的`private`方法，最好采用不同的名字，以防止混乱的发生。此外，**只有普通的方法调用是多态的，如果某个方法是静态的，它的行为就是不具有多态性**。静态方法是与类，而不是与单个的对象相关联的。**任何域访问操作都是由编译器继解析，因此域也不是多态的**。
 
@@ -186,7 +186,7 @@ class Circle extends Shape {
     private Shape shape = new Shape("in Circle of Non-static Instance Initial.");
 }
 ```
-![001](http://img.blog.csdn.net/20180104213648543)
+![global](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/polymorphic/global.png)
 
 观察上图，我们能够发现程序的初始化规律。以`基类1 -> 基类2 -> 导出类`的继承结构为例，初始化顺序大致如下：
 
@@ -260,7 +260,7 @@ class Luoyangred extends Flower {
     }
 }
 ```
-![002](http://img.blog.csdn.net/20180104222932453)
+![covariant-return-type](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/polymorphic/covariant-return-type.png)
 
 如上图所示，展示了使用协变返回类型后的效果。在 Java SE5 之前，强制导出类中被覆盖的方法必须返回基类方法的返回类型，但是在增加协变返回类型之后，我们可以让在导出类中被覆盖的方法返回基类方法的返回类型的某种导出类型，也就是说可以返回更加具体的返回类型。例如上例中的`kind()`方法，在 Java SE5 之前，只能返回`Plant`，但是在使用协变返回类型之后，我们可以直接返回更加具体的`Peony`类型。
 

@@ -37,7 +37,7 @@ class ClassC {
     }
 }
 ```
-![extend](http://img.blog.csdn.net/20171230162429958)
+![class-a](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/reuse-class/class-a.png)
 
 通过上面的测试，我们会发现：**类的构建过程是从超类向外“扩散”的**。
 

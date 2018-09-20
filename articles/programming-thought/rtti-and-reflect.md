@@ -56,7 +56,7 @@ class DongCheng {
 }
 ```
 
-![001](//img-blog.csdn.net/20180317180420794)
+![load-class](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/rtti-and-reflect/load-class.png)
 
 如上图所示，Class 对象仅在需要的时候才被加载，`static`初始化则是在类加载时进行的。其中，`forName()`为 Class 类（所有 Class 对象都属于这个类）一个静态方法，它以类的全限定名（包括包名）字符串为参数，返回值为是对应参数的 Class 对象的引用。**无论何时，只要我们想在运行时使用类型信息，就必须首先获得对恰当的 Class 对象的引用**。此外，如果想使用`newIntance()`方法来创建类实例，则该类必须含有默认（无参）构造器，代码示例已在「[java-skills](https://github.com/guobinhit/java-skills)」中给出。
 
@@ -137,7 +137,7 @@ class Initable3 {
 }
 ```
 
-![002](//img-blog.csdn.net/20180318104950558)
+![dot-class](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/rtti-and-reflect/dot-class.png)
 
 如上述代码及结果图所示，使用`.class`获取 Class 对象，并没有直接进行初始化操作，而是在我们调用其静态成员的时候才进行初始化操作；使用`forName()`方法获取 Class 对象，则是直接进行初始化，因为我们可以看到`Initable3`中静态块中的输出语句先输出。此外，如果一个`static final`值是编译期常量，如`Initable.staticFinal`，那么这个值不需要对类进行初始化就可以读取；如果一个`static final`值不是编译期常量，如`Initable.staticFinal2`，那么对`Initable.staticFinal2`的访问将强制先进行类的初始化操作，然后才能获取该值。如果一个`static`域不是`final`的，那么在访问它时，总是要求在它被读取之前，先进行链接（为这个域分配存储空间）和初始化（初始化该存储空间）。
 
@@ -234,7 +234,7 @@ class SubClass extends BaseClass {
 }
 ```
 
-![003](//img-blog.csdn.net/20180318122912116)
+![compare-class](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/rtti-and-reflect/compare-class.png)
 
 通过观察上述代码及结果图，我们可以得出结论：
 
@@ -373,7 +373,7 @@ public class TestReflect {
 }
 ```
 
-![004](//img-blog.csdn.net/20180318183217585)
+![test-reflect](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/rtti-and-reflect/test-reflect.png)
 
 如上述代码及结果图所示，我们可以通过反射访问普通类、私有局部类和匿名类的任何访问权限的方法，由此可见反射的强悍之处。看起来没有任何方式可以阻止反射到达并调用那些非公共访问权限的方法。对于域来说，也是如此，即便是`private`和`final`也不能阻止反射，不过虽然`final`不能阻止反射，却可以阻止反射修改字段的值，如上例中的`question`字段。此外，示例中的所有代码均可以在 GitHub 中的「[java-skills](https://github.com/guobinhit/java-skills)」项目中获取！
 

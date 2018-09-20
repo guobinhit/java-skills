@@ -154,7 +154,7 @@ public class ErasedTypeEquivalence {
 }
 ```
 
-![hed](https://img-blog.csdn.net/20180421160617189)
+![erased-type-equivalence](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/generic-paradigm/erased-type-equivalence.png)
 
 如上述代码及运行结果所示，这是一个残酷的事实：**在泛型代码内部，无法获得任何有关泛型参数类型的信息**。究其原因，Java 的泛型是使用擦除来实现的，这意味着当我没在使用泛型时， 任何具体的类型信息都被擦除了，我们唯一知道的就是我们在使用一个对象。因此，`List<String>`和`List<Integer>`在运行时实际上是相同的类型，这两种形式都被擦除成`List`，即原生类型。有的时候，我们可能会用到如下形式：
 

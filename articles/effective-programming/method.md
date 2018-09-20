@@ -24,11 +24,11 @@ private static void bubbleSort(int[] array) {
 
 从本质上将，断言是在声称被断言的条件将会为真，无论外围包的客户端如何使用它。不同于一般的有效性检查，如果断言失败，将会抛出`AssertionError`，如我们将`null`传递给上面的`bubbleSort()`方法，将会得到如下错误信息：
 
-![asserterror](https://img-blog.csdn.net/2018060809365448)
+![assertion-error](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/assertion-error.png)
 
 此外，如果要开启断言（默认是不开启断言模式的），需要我们手动配置`VM`启动参数。例如，在 IntelliJ IDEA 中，我们可以通过在`VM options`中设置`-ea`参数来开启断言：
 
-![ea](https://img-blog.csdn.net/20180608093607690)
+![configurations](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/configurations.png)
 
 简而言之，每当编写方法或者构造器的时候，我们应该考虑它的参数有哪些限制，也应该把这些限制写到文档中，并且在这个方法体的开头出，通过显式的检查来实施这些限制。
 
@@ -71,7 +71,7 @@ end.setYear(78);
 System.out.println("Period: start = " + period.start + ", end = " + period.end);
 ```
 
-![period](https://img-blog.csdn.net/20180609095542327)
+![period-test](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/period-test.png)
 
 如上图所示，显然，在我们创建`Period`之后，其结束时间被改变了，打破我们设置的约束条件。为了保护`Period`实例的内部信息避免受到这种攻击，**对于构造器的每个可变参数进行保护性拷贝是必要的**，并且使用备份对象作为`Period`实例的组件，而不使用原始的对象：
 
@@ -85,7 +85,7 @@ public Period(Date start, Date end) {
 }
 ```
 
-![period2](https://img-blog.csdn.net/20180609100201650)
+![period-test-2](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/period-test-2.png)
 
 如上图所示，用了新的构造器之后，上述的攻击对于`Period`实例不再有效。注意，**保护性拷贝是在检查参数的有效性之前进行的，并且有效性检查是针对拷贝之后的对象，而不是针对原始对象**。同时也请注意，我们没有用`Date`的`clone()`方法来进行保护性拷贝，因为`Date`是非`final`的，不能保证`clone()`方法一定返回类为`java.util.Date`的对象：它有可能返回专门出于恶意的目的而设计的不可信任子类的实例。例如，这样的子类可以在每个实例被创建的时候，把指向该实例的引用记录到一个私有的静态列表中，并且允许攻击者访问这个列表。这将使得攻击者可以自由地控制所有的实例。为了阻止这种攻击，**对于参数类型可以被不可信任方子类化的参数，请不要使用`clone()`方法进行保护性拷贝**。虽然替换构造器就可以成功避免上述的攻击，但是改变`Period`实例仍然是有可能的，因为它的访问方法提供了对其可变内部成员的访问能力：
 
@@ -100,7 +100,7 @@ period.end().setYear(78);
 System.out.println("Period: start = " + period.start + ", end = " + period.end);
 ```
 
-![period](https://img-blog.csdn.net/20180609095542327)
+![period-test-3](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/period-test-3.png)
 
 为了防御这第二种攻击，只需修改两个访问方法，使它返回可变内部域的保护性拷贝即可：
 
@@ -113,7 +113,7 @@ public Date end() {
     return new Date(end.getTime());
 }
 ```
-![period2](https://img-blog.csdn.net/20180609100201650)
+![period-test-4](https://github.com/guobinhit/java-skills/blob/master/images/effective-programming/method/period-test-4.png)
 
 如上图所示，采用了新的构造器和新的访问方法之后，`Period`真正是不可变的了。值得一提的是，有经验的程序员通常使用`Date.getTime()`返回`long`基本类型作为内部的时间表示法，而不是使用`Date`对象引用，因为`Date`是可变的。同理，长度非零的数组总是可变的，因此在把内部数组返回给客户端之前，应该总要进行保护性拷贝；另一种方案是，给客户端返回该数组的不可变视图。简而言之，如果类具有从客户端得到或者返回到客户端的可变组件，类就必须保护性地拷贝这些组件。
 

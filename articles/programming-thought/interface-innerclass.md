@@ -154,7 +154,7 @@ public class OuterClass {
     }
 }
 ```
-![0001](http://img.blog.csdn.net/20180302095040752)
+![outer-inner-class](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/interface-innerclass/outer-inner-class.png)
 
 如上所示，我们在`anonymousInnerClass()`中创建了一个匿名内部类，并在其中定义了一个`sayHi()`方法。在这里，细心的同学可能会意识到：**匿名内部类，实际上就是继承了方法返回（类）类型的类而已**。既然继承了父类，自然也就可以覆盖父类中的方法，因此通过`anonymousInnerClass()`方法调用`sayHi()`方法的时候，返回的是子类（匿名内部类）中的版本。
 
@@ -176,7 +176,7 @@ public InnerClass anonymousInnerClass2(final String name) {
 ```
 如果不加`final`的话，我们就会得到一条编译器给出的错误提示：
 
-![Nofinal](http://img.blog.csdn.net/20180304102837775)
+![anonymous-inner-class2](https://github.com/guobinhit/java-skills/blob/master/images/programming-thought/interface-innerclass/anonymous-inner-class2.png)
 
 此外，在匿名内部类中不可能有命名的构造器，因为它根本就没有名字！对于匿名内部类而言，实例初始化的实际效果就是构造器。**匿名内部类既可以扩展类，也可以实现接口，但不能两者兼备**。
 

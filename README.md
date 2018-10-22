@@ -61,6 +61,10 @@
 
 ## 并发实战
 
+- 第 1 章：[线程安全性](https://github.com/guobinhit/java-skills/blob/master/articles/concurrent-action/thread-safety.md)
+
+
+
 
 ## 虚拟机篇
 

@@ -62,7 +62,7 @@
 ## 并发实战
 
 - 第 1 章：[线程安全性](https://github.com/guobinhit/java-skills/blob/master/articles/concurrent-action/thread-safety.md)
-
+- 第 2 章：[对象的共享及组合](https://github.com/guobinhit/java-skills/blob/master/articles/concurrent-action/share-combine.md)
 
 
 

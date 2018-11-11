@@ -47,4 +47,4 @@ Java 虚拟机在执行 Java 程序的过程中会把它所管理的内存划分
 
 ----------
 
-———— ☆☆☆ —— 返回 -> [那些年，关于 Java 的那些事儿](http://blog.csdn.net/qq_35246620/article/details/78695893) <- 目录 —— ☆☆☆ ————
+———— ☆☆☆ —— 返回 -> [The Skills of Java](http://blog.csdn.net/qq_35246620/article/details/78695893) <- 目录 —— ☆☆☆ ————

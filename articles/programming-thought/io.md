@@ -82,4 +82,4 @@ JDK 1.4 的`java.nio.*`包中引入了新的的 Java I/O 类库，其目的在�
 
 ----------
 
-———— ☆☆☆ —— 返回 -> [那些年，关于 Java 的那些事儿](https://github.com/guobinhit/java-skills/blob/master/README.md) <- 目录 —— ☆☆☆ ————
+———— ☆☆☆ —— 返回 -> [The Skills of Java](https://github.com/guobinhit/java-skills/blob/master/README.md) <- 目录 —— ☆☆☆ ————

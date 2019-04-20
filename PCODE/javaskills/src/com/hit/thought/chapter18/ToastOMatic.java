@@ -1,4 +1,4 @@
-package com.hit.thought.current;
+package com.hit.thought.chapter18;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;

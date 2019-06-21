@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * author:Charies Gavin
  * date:2019/4/20,14:00
  * https:github.com/guobinhit
- * description:赛马
+ * description:Horse Race
  */
 public class HorseRace {
     static final int FINISH_LINE = 75;
